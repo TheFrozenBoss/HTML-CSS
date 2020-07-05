@@ -1,0 +1,54 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Common styling */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Header styling */
+.header {
+  margin: 30px 30px;
+}
+/* Unordered list (navbar) styling */
+ul {
+  background: #252525;
+  width: 1920px;
+  height: 60px;
+  padding: 20px;
+  margin: 40px 0px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  margin: 0px 30px;
+}
+
+/* Stap en paragraph Styling */
+.pagelayout {
+  display: flex;
+}
+
+.stap {
+  width: 600px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.paragraph {
+  margin: 10px 0px;
+}
+
+/* Image styling */
+.image {
+  width: 800px;
+}
